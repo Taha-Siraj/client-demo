@@ -1,7 +1,7 @@
 // Client Sandbox/Test Credentials
 const CONFIG = {
   PAYPAL_CLIENT_ID: "AdxNpYWlducbzmMtta4gIApJbYrYYzxTJLYFRBVcYuAZQxX33SR-1CE3-pFCXVg_eE6AWKbD-KLE70lo",
-  STRIPE_PAYMENT_LINK: "https://checkout.stripe.com/pay/test_1234567890abcdef",
+  STRIPE_PAYMENT_LINK: "https://buy.stripe.com/test_6oUfZjdinctB1Ql01p4Vy00",
   GUMROAD_PRODUCT_URL: "https://gumroad.com/l/your-product-slug",
   PRICE: "47.00",
   CURRENCY: "USD"
