@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Block</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="payment-block">
+    <h2>Buy Credit Repair Kit - $47</h2>
+
+    <!-- Stripe Payment Button -->
+    <a href="https://checkout.stripe.com/pay/test_1234567890abcdef" target="_blank" class="btn stripe-btn">
+      Pay with Stripe
+    </a>
+
+    <!-- Gumroad Payment Button -->
+    <a href="https://gumroad.com/l/your-product-slug" target="_blank" class="btn gumroad-btn">
+      Buy on Gumroad
+    </a>
+
+    <!-- PayPal Button Container -->
+    <div id="paypal-button-container"></div>
+  </div>
+
+  <!-- PayPal SDK (Load first) -->
+  <script src="https://www.paypal.com/sdk/js?client-id=AdxNpYWlducbzmMtta4gIApJbYrYYzxTJLYFRBVcYuAZQxX33SR-1CE3-pFCXVg_eE6AWKbD-KLE70lo&currency=USD"></script>
+  
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+</html>
